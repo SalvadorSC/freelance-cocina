@@ -1,0 +1,459 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+    font-family: "Poppins", 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+}
+
+header.masthead {
+    position: relative;
+    background: /* top, transparent black, faked with gradient */
+    linear-gradient( rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.05)), /* bottom, image */
+    url(../img/top-view-tomatoes-with-spinach-cutlery.jpg) no-repeat center center;
+    padding-top: 8rem;
+    background-size: cover;
+    padding-bottom: 8rem;
+    margin-top: 56px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+header.masthead .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3
+}
+
+.container-header {
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+}
+
+header.masthead h1 {
+    font-size: 2rem
+}
+
+.logo-header-w {
+    margin-top: 70px;
+    height: 250px;
+}
+
+.container-talleres {
+    background-image: url(landing-page.min.css);
+    height: auto;
+    background: /* top, transparent black, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* bottom, image */
+    url(/img/cocinerococina.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 4rem;
+    /* background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat; */
+}
+
+.carta {
+    background-color: snow;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.img-border-20 {
+    border-radius: 20px 20px 0 0;
+}
+
+.col-lg-3 {
+    padding: 0;
+}
+
+a {
+    cursor: pointer;
+}
+
+textarea {
+    outline: none;
+    overflow: auto;
+    resize: none;
+    width: 100%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.select-input {
+    width: 100%;
+    margin: 0 auto;
+    height: 2em;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.button-form {
+    border: none;
+    border-radius: 5px;
+}
+
+.logo-nav img {
+    height: 30px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+.header-info {
+    display: flex;
+    font-weight: bold;
+    height: 500px;
+    padding-top: 58.94px;
+    color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.talleres-info {
+    display: flex;
+    height: 700px;
+    color: black;
+    justify-content: space-between;
+}
+
+.about-info {
+    padding-top: 58.94px;
+    display: flex;
+    color: black;
+    justify-content: space-between;
+}
+
+.header-info h1 {
+    font-size: 48px;
+}
+
+.header-info p {
+    font-size: 18px;
+}
+
+.header-info h1, .header-info p {
+    font-weight: 700 !important;
+}
+
+.informational-text {
+    margin-left: 200px;
+}
+
+.foto-header {
+    height: 100%;
+}
+
+.foto-header img {
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.foto-header-encasa img {
+    width: 40vw;
+    object-fit: cover;
+}
+
+.foto-header-w img {
+    width: 40vw;
+    object-fit: cover;
+}
+
+.talleres-info {
+    padding-top: 0;
+    height: 520px;
+    /* padding-bottom: 50px; */
+}
+
+.fl {
+    display: flex;
+}
+
+.lead {
+    font-size: 16px;
+}
+
+.card-link {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 40px;
+}
+
+nav {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+nav li {
+    padding: 20px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 14px;
+}
+
+nav .container {
+    margin: 0 auto;
+}
+
+.promo {
+    width: 100%;
+    height: 600px;
+    color: white;
+    padding-left: 20%;
+    padding-right: 20%;
+    align-items: center;
+    background-color: #343a40;
+    background: /* top, transparent black, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* bottom, image */
+    url(https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1335&q=80) no-repeat center center;
+    background-size: cover;
+}
+
+.promo h4 {
+    width: 50%;
+    margin-left: 20%;
+}
+
+.carta-tapas {
+    width: 320px;
+    height: 213px;
+    object-fit: cover;
+}
+
+.mailto {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.mailto:hover {
+    font-size: 2em;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.language-selector {
+    border: none;
+}
+
+.language-selector:focus {
+    outline: none;
+}
+
+.precio {
+    font-size: 1.75em;
+    font-weight: 700;
+}
+
+.container-nav {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.carta-dias {
+    background-color: white;
+    flex-direction: column;
+    border-radius: 5px;
+    /* width: 120%; */
+    height: 110%;
+    justify-content: space-between;
+}
+
+.dia-carta-dia {
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.dia-carta-dia hr {
+    margin-bottom: 0;
+    background-color: #f8b517;
+}
+
+.precio-carta-dia {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.precio-carta-dia hr {
+    margin-top: 0;
+    background-color: #f8b517;
+}
+
+.row-dias {
+    /* background-color: azure; */
+    border-radius: 5px;
+}
+
+.container-dias {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.container-horario {
+    height: auto;
+    background-color: rgb(27, 27, 27)
+    /* background-color: rgba(0, 0, 0, 0.336);
+    backdrop-filter: blur(5px); */
+}
+
+.precio-carta{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+
+.container-horarios {
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 1px solid #f8b517; */
+}
+
+.width-carta-dias {
+    opacity: 0;
+}
+
+.email-label{
+    width: 100%;
+}
+.email-input{
+    padding-left: 15px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 2.5em;
+}
+.email-message{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    height: 20em;
+}
+.email-submit{
+    background-color: #5BADB9;
+    border:none;
+    padding: 8px 40px;
+    border-radius: 5px;
+    color: azure;
+    float: right;
+}
+.email-submit:hover{
+   color: #333;
+   transition: 0.2s;
+}
+
+@media (min-width:768px) {
+    header.masthead {
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+        margin-top: 56px;
+    }
+    header.masthead h1 {
+        font-size: 3rem
+    }
+}
+
+.showcase .showcase-text {
+    padding: 3rem
+}
+
+.showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover
+}
+
+@media (max-width:986px) {
+    .container-nav {
+        display: block;
+    }
+}
+
+@media (min-width:768px) {
+    .showcase .showcase-text {
+        padding: 7rem
+    }
+}
+
+.features-icons {
+    padding-top: 7rem;
+    padding-bottom: 7rem
+}
+
+.features-icons .features-icons-item {
+    max-width: 20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon {
+    height: 7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i {
+    font-size: 4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i {
+    font-size: 5rem
+}
+
+.testimonials {
+    padding-top: 7rem;
+    padding-bottom: 7rem
+}
+
+.testimonials .testimonial-item {
+    max-width: 18rem
+}
+
+.testimonials .testimonial-item img {
+    max-width: 12rem;
+    box-shadow: 0 5px 5px 0 #adb5bd
+}
+
+.call-to-action {
+    position: relative;
+    background-color: #343a40;
+    background: /* top, transparent black, faked with gradient */
+    linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* bottom, image */
+    url(https://images.unsplash.com/photo-1512058564366-18510be2db19?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1352&q=80) no-repeat center center;
+    background-size: cover;
+    padding-top: 4rem;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.call-to-action .overlay {
+    position: absolute;
+    background-color: #212529;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: .3
+}
+
+footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem
+}
+
+footer.footer a {
+    color: white;
+}
+
+.bg-halfdark {
+    background-color: rgba(0, 0, 0, 0.9);
+}

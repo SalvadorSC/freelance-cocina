@@ -1,0 +1,109 @@
+@media (max-width: 1440px) {
+    .promo h4 {
+        width: 75%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1280px) {
+    #promo-texto-cat {
+        font-size: 24px;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 2.5%;
+    }
+    #promo-cat {
+        padding-top: 5%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1200px) {
+    .titulo-header {
+        position: relative;
+        margin-top: 60px;
+        text-align: center !important;
+    }
+    .brandname-header {
+        display: none;
+    }
+    .promo h4 {
+        width: 100%;
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 1024px) {
+    #promo-cat {
+        padding-top: 0;
+    }
+    .titulo-header {
+        position: relative;
+        bottom: 45px;
+    }
+    .promo h4 {
+        font-size: 1.3em;
+    }
+    .promo h2 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .promo h4 {
+        margin-left: 0%;
+    }
+    #promo-titulo-cat {
+        padding: 0;
+    }
+    #promo-cat {
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    header.masthead {
+        position: relative;
+        background: url(../img/top-view-tomatoes-with-spinach-cutlery.jpg) no-repeat center center;
+    }
+}
+
+@media (max-width: 560px) {
+    html {
+        width: 115vw;
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 426px) {
+    html {
+        width: 115vw;
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    nav {
+        width: 115vw;
+    }
+    .promo h2 {
+        font-size: 1.5em;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo-header-w {
+        width: 80%;
+        object-fit: cover;
+        height: auto;
+    }
+    .titulo-header {
+        bottom: 0px;
+    }
+    .promo {
+        height: 620px;
+    }
+    .mailto {
+        font-size: 1.3em;
+    }
+}

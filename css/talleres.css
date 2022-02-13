@@ -1,0 +1,200 @@
+body {
+    overflow-x: hidden;
+    width: 100vw;
+}
+
+nav {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+#informational-text-paragrafos {
+    width: 80%;
+}
+
+#informational-text-paragrafos-menosw {
+    display: none;
+}
+
+.fotoGrande img {
+    /*     overflow: hidden; */
+    width: 40vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.mobile-first {
+    display: none;
+    padding-top: 120px
+}
+
+#mobile-first {
+    display: none;
+    padding-top: 120px
+}
+
+.slogan{
+    font-size: 20px;
+}
+
+@media (max-width: 1635px) {
+    .informational-text {
+        margin-left: 100px;
+    }
+    #informational-text-paragrafos {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .informational-text {
+        margin-left: 50px;
+    }
+    #informational-text-paragrafos {
+        width: 95%;
+    }
+}
+
+@media (max-width: 1320px) {
+    .foto-header {
+        height: 100%;
+    }
+    .foto-header img {
+        width: 50vw;
+        object-fit: cover;
+    }
+}
+
+@media (max-width: 1216px) {
+    .foto-header img {
+        height: 100%;
+        width: 50vw;
+    }
+}
+
+@media (max-width: 1134px) {
+    #informational-text-paragrafos {
+        display: none;
+    }
+    #informational-text-paragrafos-menosw {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    .talleres-info .foto-header {
+        display: none;
+    }
+    .talleres-info {
+        display: flex;
+    }
+    .informational-text .w-75 {
+        width: 100% !important;
+    }
+    .fotoGrande {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) {
+    .foto-header {
+        display: none;
+    }
+}
+
+@media (max-width: 650px) {
+    #texto-talleres-info {
+        display: flex;
+        flex-direction: column;
+    }
+    .talleres-info {
+        height: 630px;
+    }
+    .mobile-second {
+        display: none;
+        visibility: hidden;
+    }
+    .mobile-first {
+        display: block;
+    }
+    #mobile-second {
+        display: none;
+        visibility: hidden;
+    }
+    #mobile-first {
+        display: block;
+    }
+}
+
+@media (max-width: 651px) {
+    .mobile-second {
+        display: none;
+        visibility: hidden;
+    }
+    #mobile-second {
+        display: none;
+        visibility: hidden;
+    }
+}
+
+@media (max-width: 550px) {
+    html {
+        overflow-x: hidden;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    #precio-talleres-es {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 426px) {
+    .primer-titulo-IT {
+        display: none;
+    }
+    .informational-text {
+        height: 300px;
+        margin-left: 25px;
+    }
+    .informational-text h1 {
+        font-size: 2em;
+        position: relative;
+        top: 100px;
+    }
+    .descripcion-header {
+        position: relative;
+        font-size: 0.9em;
+        top: 100px;
+    }
+    .mailto {
+        font-size: 1.3em;
+    }
+    .talleres-info {
+        height: 630px;
+    }
+}
+
+@media (max-width: 320px) {
+    .descripcion-header {
+        top: 85px;
+        margin-right: 20px;
+    }
+    .talleres-info {
+        height: 730px;
+    }
+    .fl h6 {
+        padding-top: 10px !important;
+    }
+    .caracteristicas-taller {
+        top: 20px;
+    }
+    #caracteristicas-taller-div-es {
+        display: block;
+        padding-top: 5px !important;
+    }
+    .informational-text {
+        width: 95%;
+    }
+}
