@@ -1,0 +1,55 @@
+.carta-dias {
+    background-color: white;
+    flex-direction: column;
+    border-radius: 5px;
+    /* width: 120%; */
+    height: 110%;
+    justify-content: space-between;
+}
+
+.dia-carta-dia {
+    padding-top: 20px;
+    background-color: white;
+    border-radius: 5px 5px 0 0;
+}
+
+.dia-carta-dia hr {
+    margin-bottom: 0;
+    background-color: #f8b517;
+}
+
+.precio-carta-dia {
+    background-color: white;
+    border-radius: 0 0 5px 5px;
+}
+
+.precio-carta-dia hr {
+    margin-top: 0;
+    background-color: #f8b517;
+}
+
+.row-dias {
+    /* background-color: azure; */
+    
+    border-radius: 5px;
+}
+
+.container-dias {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.container-talleres {
+    height: 250vh;
+}
+
+.container-horarios{
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* border: 1px solid #f8b517; */
+}
+
+.width-carta-dias{
+    opacity: 0;
+}
